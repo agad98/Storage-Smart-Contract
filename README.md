@@ -2,15 +2,17 @@
 
 
 Identify Requirements:
-* Need a smart contract
-* Needs to store data of type uint256
+* Need a smart contract.
+* Needs to store data of type uint256.
 * Need to be able to be called on.
+* Need a contract factory as well with the ability to initiate more contracts.
 
 Plan & Design:
 Systematic approach will be taken with a top-down implementation of the functions. 
 
 Build/Code:
-Buidl to be done concurrently with the Code of choice being Solidity and Python.
+- [ ] Build to be done concurrently with the Code of choice being Solidity and Python.
+- [ ] StorageFactory needs to be a contract that will initiate more contracts
 
 Test/Debug/Document:
 Testing will be done parallely due to the limited number of functions.
